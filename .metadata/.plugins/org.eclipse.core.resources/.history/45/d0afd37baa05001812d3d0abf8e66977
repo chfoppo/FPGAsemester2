@@ -1,0 +1,26 @@
+#include "lpc_types.h"
+#include "joystick.h"
+#include "rgb_update.h"
+
+void Joystick_Init(void)
+{
+	joystick_init();
+}
+
+void Joystick_Update(void)
+{
+	uint8_t joy = joystick_read();
+
+	if (joy & JOYSTICK_UP)
+	{
+		if(green_parameter < 10){
+		green_parameter++;
+		}
+	}
+	if (joy & JOYSTICK_DOWN)
+	{
+		if(green_parameter > 0){
+		green_parameter--;
+		}
+	}
+}

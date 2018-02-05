@@ -1,0 +1,1124 @@
+Archive member included because of file (symbol)
+
+Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                              ./src/system/cr_startup_lpc17.o (SystemInit)
+Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+                              ./src/tasks/joystick_controller.o (joystick_init)
+Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+                              ./src/tasks/_7segment.o (led7seg_init)
+Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+                              ./src/tasks/rgb_update.o (rgb_init)
+Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+                              ./src/main/main.o (rotary_init)
+Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                              Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o) (GPIO_SetDir)
+Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+                              ./src/tasks/_7segment.o (PINSEL_ConfigPin)
+Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                              ./src/tasks/_7segment.o (SSP_Init)
+Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                              Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o) (CLKPWR_GetPCLK)
+c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+                              Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
+c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+                              c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_dvmd_tls.o)
+                              c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+                              c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o) (__divdi3)
+c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+                              c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o) (__udivdi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+Error_code_G        0x4               ./src/scheduler/ttc_scheduler_o.o
+SCH_tasks_G         0xa0              ./src/scheduler/ttc_scheduler_o.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/_7segment.o
+ .text          0x00000000        0x0 ./src/tasks/_7segment.o
+ .group         0x00000000        0x8 ./src/tasks/joystick_controller.o
+ .group         0x00000000        0x8 ./src/tasks/joystick_controller.o
+ .group         0x00000000        0x8 ./src/tasks/joystick_controller.o
+ .group         0x00000000        0x8 ./src/tasks/joystick_controller.o
+ .group         0x00000000        0x8 ./src/tasks/joystick_controller.o
+ .group         0x00000000        0x8 ./src/tasks/joystick_controller.o
+ .group         0x00000000        0x8 ./src/tasks/joystick_controller.o
+ .text          0x00000000        0x0 ./src/tasks/joystick_controller.o
+ .data          0x00000000        0x0 ./src/tasks/joystick_controller.o
+ .bss           0x00000000        0x0 ./src/tasks/joystick_controller.o
+ .debug_macro   0x00000000      0x856 ./src/tasks/joystick_controller.o
+ .debug_macro   0x00000000       0x16 ./src/tasks/joystick_controller.o
+ .debug_macro   0x00000000       0x44 ./src/tasks/joystick_controller.o
+ .debug_macro   0x00000000      0x209 ./src/tasks/joystick_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .text          0x00000000        0x0 ./src/tasks/rgb_update.o
+ .debug_macro   0x00000000      0x856 ./src/tasks/rgb_update.o
+ .debug_macro   0x00000000       0x16 ./src/tasks/rgb_update.o
+ .debug_macro   0x00000000       0x44 ./src/tasks/rgb_update.o
+ .debug_macro   0x00000000      0x209 ./src/tasks/rgb_update.o
+ .debug_macro   0x00000000       0x5e ./src/tasks/rgb_update.o
+ .debug_macro   0x00000000       0x1c ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/tasks/rotary_controller.o
+ .text          0x00000000        0x0 ./src/tasks/rotary_controller.o
+ .data          0x00000000        0x0 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000      0x856 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000       0x1c ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000       0x22 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000       0x16 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000       0x44 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000      0x209 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000      0x7b7 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000      0x2c7 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000       0x64 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000      0x140 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000       0x46 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000      0x2a6 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00000000       0x1c ./src/tasks/rotary_controller.o
+ .group         0x00000000        0x8 ./src/system/cr_startup_lpc17.o
+ .group         0x00000000        0x8 ./src/system/cr_startup_lpc17.o
+ .group         0x00000000        0x8 ./src/system/cr_startup_lpc17.o
+ .group         0x00000000        0x8 ./src/system/cr_startup_lpc17.o
+ .text          0x00000000        0x0 ./src/system/cr_startup_lpc17.o
+ .data          0x00000000        0x0 ./src/system/cr_startup_lpc17.o
+ .bss           0x00000000        0x0 ./src/system/cr_startup_lpc17.o
+ .text.SysTick_Handler
+                0x00000000        0x8 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x00000000      0x856 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x00000000       0x16 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x00000000       0x44 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x00000000      0x209 ./src/system/cr_startup_lpc17.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .text          0x00000000        0x0 ./src/scheduler/ttc_scheduler_o.o
+ .data          0x00000000        0x0 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000      0x856 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000       0x1c ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000       0x22 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000       0x16 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000       0x44 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000      0x209 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000      0x7b7 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000      0x2c7 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000       0x64 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .text          0x00000000        0x0 ./src/main/main.o
+ .data          0x00000000        0x0 ./src/main/main.o
+ .bss           0x00000000        0x0 ./src/main/main.o
+ .debug_macro   0x00000000      0x856 ./src/main/main.o
+ .debug_macro   0x00000000       0x1c ./src/main/main.o
+ .debug_macro   0x00000000       0x22 ./src/main/main.o
+ .debug_macro   0x00000000       0x16 ./src/main/main.o
+ .debug_macro   0x00000000       0x44 ./src/main/main.o
+ .debug_macro   0x00000000      0x209 ./src/main/main.o
+ .debug_macro   0x00000000      0x7b7 ./src/main/main.o
+ .debug_macro   0x00000000      0x2c7 ./src/main/main.o
+ .debug_macro   0x00000000       0x64 ./src/main/main.o
+ .debug_macro   0x00000000       0x1c ./src/main/main.o
+ .debug_macro   0x00000000       0x1c ./src/main/main.o
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000      0x184 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .text          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .data          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .bss           0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00000000      0x850 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00000000       0x22 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00000000       0x10 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00000000      0x12d Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00000000      0x5b2 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00000000      0x7b7 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00000000       0x64 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00000000       0x28 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .text          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .data          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .bss           0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000      0x850 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000       0x22 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000       0x10 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000      0x12d Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000      0x5b2 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000      0x7b7 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000       0x64 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000       0x40 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x00000000      0x2a6 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .text          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .data          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .bss           0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000      0x850 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x22 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x10 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000      0x12d Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000      0x5b2 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000      0x7b7 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x64 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x40 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .text          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .data          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .bss           0x00000000        0x0 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000      0x850 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000       0x22 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000       0x10 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000      0x12d Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000      0x5b2 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000      0x7b7 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000       0x64 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000       0x40 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .data          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .bss           0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordGetPointer
+                0x00000000       0x3c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteGetPointer
+                0x00000000       0x3c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_IntCmd
+                0x00000000       0x38 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_GetIntStatus
+                0x00000000       0x58 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_ClearInt
+                0x00000000       0x18 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_SetDir
+                0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_SetValue
+                0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ClearValue
+                0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ReadValue
+                0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_IntCmd
+                0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_GetIntStatus
+                0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ClearInt
+                0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_SetMask
+                0x00000000       0x20 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetDir
+                0x00000000       0x40 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetMask
+                0x00000000       0x40 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetValue
+                0x00000000       0x18 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordClearValue
+                0x00000000       0x18 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordReadValue
+                0x00000000       0x1c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteSetDir
+                0x00000000       0x2c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteSetMask
+                0x00000000       0x30 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteSetValue
+                0x00000000       0x18 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteClearValue
+                0x00000000       0x18 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteReadValue
+                0x00000000       0x20 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000      0x850 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x22 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x10 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000      0x12d Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000      0x5b2 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000      0x7b7 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x64 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x40 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .text          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .data          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .bss           0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.PINSEL_ConfigTraceFunc
+                0x00000000       0x24 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.PINSEL_SetI2C0Pins
+                0x00000000       0x14 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000      0x850 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000       0x22 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000       0x10 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000      0x12d Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000      0x5b2 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000      0x7b7 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000       0x64 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00000000      0x140 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .data          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .bss           0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_DeInit
+                0x00000000       0x4c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_LoopBackCmd
+                0x00000000       0x48 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_SlaveOutputCmd
+                0x00000000       0x4c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_GetStatus
+                0x00000000       0x50 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_IntConfig
+                0x00000000       0x44 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_GetRawIntStatus
+                0x00000000       0x4c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_GetRawIntStatusReg
+                0x00000000       0x28 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_GetIntStatus
+                0x00000000       0x4c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_ClearIntPending
+                0x00000000       0x3c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_DMACmd
+                0x00000000       0x60 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000      0x850 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000       0x22 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000       0x10 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000      0x12d Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000      0x5b2 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000      0x7b7 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000       0x64 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00000000       0xda Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x00000000        0x8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .data          0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .bss           0x00000000        0x0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_SetPCLKDiv
+                0x00000000       0x60 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_Sleep
+                0x00000000       0x10 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_DeepSleep
+                0x00000000       0x1c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_PowerDown
+                0x00000000       0x1c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_DeepPowerDown
+                0x00000000       0x1c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x850 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000       0x1c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000       0x22 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000       0x10 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x12d Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x5b2 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x7b7 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x00000000       0x64 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text          0x00000000       0x2c c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000       0x60 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+ .debug_frame   0x00000000       0x58 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+ .text          0x00000000        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000      0x2a0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00000000        0x8 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .debug_frame   0x00000000       0x34 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .text          0x00000000      0x290 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00000000        0x8 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00000000       0x34 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/tasks/_7segment.o
+LOAD ./src/tasks/joystick_controller.o
+LOAD ./src/tasks/rgb_update.o
+LOAD ./src/tasks/rotary_controller.o
+LOAD ./src/system/cr_startup_lpc17.o
+LOAD ./src/scheduler/ttc_scheduler_o.o
+LOAD ./src/main/main.o
+LOAD Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a
+LOAD Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a
+LOAD Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc.a
+LOAD c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a
+LOAD c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_semihost.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+
+.text           0x00000000     0x11a4
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/system/cr_startup_lpc17.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x11a4 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0xc SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x11a4 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x1000000c ADDR (.bss)
+                0x000000e8        0x4 LONG 0xb4 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ *(.text*)
+ .text._7segment_Init
+                0x000000f4       0x88 ./src/tasks/_7segment.o
+                0x000000f4                _7segment_Init
+ .text._7segment_Update
+                0x0000017c       0x58 ./src/tasks/_7segment.o
+                0x0000017c                _7segment_Update
+ .text.Joystick_Init
+                0x000001d4        0xc ./src/tasks/joystick_controller.o
+                0x000001d4                Joystick_Init
+ .text.Joystick_Update
+                0x000001e0       0xb0 ./src/tasks/joystick_controller.o
+                0x000001e0                Joystick_Update
+ .text.RGB_Init
+                0x00000290       0x30 ./src/tasks/rgb_update.o
+                0x00000290                RGB_Init
+ .text.RGB_Update
+                0x000002c0      0x118 ./src/tasks/rgb_update.o
+                0x000002c0                RGB_Update
+ .text.rotary_process
+                0x000003d8       0x5c ./src/tasks/rotary_controller.o
+                0x000003d8                rotary_process
+ .text.ResetISR
+                0x00000434       0x5c ./src/system/cr_startup_lpc17.o
+                0x00000434                ResetISR
+ .text.NMI_Handler
+                0x00000490        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000490                NMI_Handler
+ .text.HardFault_Handler
+                0x00000498        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000498                HardFault_Handler
+ .text.MemManage_Handler
+                0x000004a0        0x8 ./src/system/cr_startup_lpc17.o
+                0x000004a0                MemManage_Handler
+ .text.BusFault_Handler
+                0x000004a8        0x8 ./src/system/cr_startup_lpc17.o
+                0x000004a8                BusFault_Handler
+ .text.UsageFault_Handler
+                0x000004b0        0x8 ./src/system/cr_startup_lpc17.o
+                0x000004b0                UsageFault_Handler
+ .text.SVCall_Handler
+                0x000004b8        0x8 ./src/system/cr_startup_lpc17.o
+                0x000004b8                SVCall_Handler
+ .text.DebugMon_Handler
+                0x000004c0        0x8 ./src/system/cr_startup_lpc17.o
+                0x000004c0                DebugMon_Handler
+ .text.PendSV_Handler
+                0x000004c8        0x8 ./src/system/cr_startup_lpc17.o
+                0x000004c8                PendSV_Handler
+ .text.IntDefaultHandler
+                0x000004d0        0x8 ./src/system/cr_startup_lpc17.o
+                0x000004d0                TIMER2_IRQHandler
+                0x000004d0                RIT_IRQHandler
+                0x000004d0                I2C0_IRQHandler
+                0x000004d0                USBActivity_IRQHandler
+                0x000004d0                PWM1_IRQHandler
+                0x000004d0                I2C1_IRQHandler
+                0x000004d0                EINT2_IRQHandler
+                0x000004d0                UART1_IRQHandler
+                0x000004d0                EINT3_IRQHandler
+                0x000004d0                CANActivity_IRQHandler
+                0x000004d0                TIMER3_IRQHandler
+                0x000004d0                UART0_IRQHandler
+                0x000004d0                IntDefaultHandler
+                0x000004d0                PLL0_IRQHandler
+                0x000004d0                CAN_IRQHandler
+                0x000004d0                PLL1_IRQHandler
+                0x000004d0                SSP0_IRQHandler
+                0x000004d0                I2S_IRQHandler
+                0x000004d0                I2C2_IRQHandler
+                0x000004d0                RTC_IRQHandler
+                0x000004d0                TIMER0_IRQHandler
+                0x000004d0                SPI_IRQHandler
+                0x000004d0                EINT1_IRQHandler
+                0x000004d0                TIMER1_IRQHandler
+                0x000004d0                UART2_IRQHandler
+                0x000004d0                ADC_IRQHandler
+                0x000004d0                SSP1_IRQHandler
+                0x000004d0                USB_IRQHandler
+                0x000004d0                BOD_IRQHandler
+                0x000004d0                WDT_IRQHandler
+                0x000004d0                QEI_IRQHandler
+                0x000004d0                EINT0_IRQHandler
+                0x000004d0                DMA_IRQHandler
+                0x000004d0                UART3_IRQHandler
+                0x000004d0                MCPWM_IRQHandler
+                0x000004d0                ENET_IRQHandler
+ .text.__enable_irq
+                0x000004d8       0x10 ./src/scheduler/ttc_scheduler_o.o
+ .text.__disable_irq
+                0x000004e8       0x10 ./src/scheduler/ttc_scheduler_o.o
+ .text.__WFI    0x000004f8       0x10 ./src/scheduler/ttc_scheduler_o.o
+ .text.NVIC_SetPriority
+                0x00000508       0x54 ./src/scheduler/ttc_scheduler_o.o
+ .text.SysTick_Config
+                0x0000055c       0x44 ./src/scheduler/ttc_scheduler_o.o
+ .text.SCH_Init
+                0x000005a0       0x64 ./src/scheduler/ttc_scheduler_o.o
+                0x000005a0                SCH_Init
+ .text.SCH_Start
+                0x00000604       0x28 ./src/scheduler/ttc_scheduler_o.o
+                0x00000604                SCH_Start
+ .text.SysTick_Handler
+                0x0000062c       0x30 ./src/scheduler/ttc_scheduler_o.o
+                0x0000062c                SysTick_Handler
+ .text.SCH_Dispatch_Tasks
+                0x0000065c      0x10c ./src/scheduler/ttc_scheduler_o.o
+                0x0000065c                SCH_Dispatch_Tasks
+ .text.SCH_Add_Task
+                0x00000768       0x7c ./src/scheduler/ttc_scheduler_o.o
+                0x00000768                SCH_Add_Task
+ .text.SCH_Delete_Task
+                0x000007e4       0x70 ./src/scheduler/ttc_scheduler_o.o
+                0x000007e4                SCH_Delete_Task
+ .text.SCH_Go_To_Sleep
+                0x00000854        0xc ./src/scheduler/ttc_scheduler_o.o
+ .text.main     0x00000860       0x5c ./src/main/main.o
+                0x00000860                main
+ .text.check_failed
+                0x000008bc        0xc ./src/main/main.o
+                0x000008bc                check_failed
+ .text.SystemInit
+                0x000008c8       0xec Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x000008c8                SystemInit
+ .text.joystick_init
+                0x000009b4       0x1c Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+                0x000009b4                joystick_init
+ .text.joystick_read
+                0x000009d0       0x48 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+                0x000009d0                joystick_read
+ .text.led7seg_init
+                0x00000a18       0x18 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+                0x00000a18                led7seg_init
+ .text.led7seg_setChar
+                0x00000a30       0x5c Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+                0x00000a30                led7seg_setChar
+ .text.rgb_init
+                0x00000a8c       0x24 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+                0x00000a8c                rgb_init
+ .text.rgb_setLeds
+                0x00000ab0       0x54 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+                0x00000ab0                rgb_setLeds
+ .text.rotary_init
+                0x00000b04       0x10 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+                0x00000b04                rotary_init
+ .text.rotary_read
+                0x00000b14       0x80 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+                0x00000b14                rotary_read
+ .text.GPIO_GetPointer
+                0x00000b94       0x3c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_SetDir
+                0x00000bd0       0x20 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x00000bd0                GPIO_SetDir
+ .text.GPIO_SetValue
+                0x00000bf0       0x10 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x00000bf0                GPIO_SetValue
+ .text.GPIO_ClearValue
+                0x00000c00       0x10 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x00000c00                GPIO_ClearValue
+ .text.GPIO_ReadValue
+                0x00000c10       0x10 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x00000c10                GPIO_ReadValue
+ .text.set_PinFunc
+                0x00000c20       0x38 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.set_ResistorMode
+                0x00000c58       0x34 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.set_OpenDrainMode
+                0x00000c8c       0x30 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.PINSEL_ConfigPin
+                0x00000cbc       0x24 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+                0x00000cbc                PINSEL_ConfigPin
+ .text.setSSPclock
+                0x00000ce0       0x84 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_Init
+                0x00000d64       0x70 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x00000d64                SSP_Init
+ .text.SSP_GetDataSize
+                0x00000dd4       0x2c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x00000dd4                SSP_GetDataSize
+ .text.SSP_ConfigStructInit
+                0x00000e00       0x18 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x00000e00                SSP_ConfigStructInit
+ .text.SSP_Cmd  0x00000e18       0x48 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x00000e18                SSP_Cmd
+ .text.SSP_SendData
+                0x00000e60       0x2c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x00000e60                SSP_SendData
+ .text.SSP_ReceiveData
+                0x00000e8c       0x2c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x00000e8c                SSP_ReceiveData
+ .text.SSP_ReadWrite
+                0x00000eb8      0x204 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x00000eb8                SSP_ReadWrite
+ .text.CLKPWR_GetPCLKSEL
+                0x000010bc       0x24 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x000010bc                CLKPWR_GetPCLKSEL
+ .text.CLKPWR_GetPCLK
+                0x000010e0       0x28 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x000010e0                CLKPWR_GetPCLK
+ .text.CLKPWR_ConfigPPWR
+                0x00001108       0x34 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x00001108                CLKPWR_ConfigPPWR
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata        0x0000113c       0x50 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .rodata.str1.4
+                0x0000118c       0x18 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x000011a4                . = ALIGN (0x4)
+
+.glue_7         0x000011a4        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x000011a4        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x000011a4        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000011a4        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000011a4        0x0
+ .iplt          0x00000000        0x0 ./src/tasks/_7segment.o
+
+.rel.dyn        0x000011a4        0x0
+ .rel.iplt      0x00000000        0x0 ./src/tasks/_7segment.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000011a4                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000011a4                __exidx_end = .
+                0x000011a4                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x000011a4
+ FILL mask 0xff
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0xc load address 0x000011a4
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data          0x10000000        0x2 ./src/tasks/_7segment.o
+                0x10000000                counter_parameter
+ .data          0x10000002        0x4 ./src/tasks/rgb_update.o
+                0x10000002                red_state
+                0x10000003                red_parameter
+                0x10000004                green_state
+                0x10000005                green_parameter
+ *fill*         0x10000006        0x2 
+ .data          0x10000008        0x4 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x10000008                SystemCoreClock
+                0x1000000c                . = ALIGN (0x4)
+                0x1000000c                _edata = .
+
+.igot.plt       0x1000000c        0x0 load address 0x000011b0
+ .igot.plt      0x00000000        0x0 ./src/tasks/_7segment.o
+
+.bss_RAM2       0x2007c000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.bss            0x1000000c       0xb4
+                0x1000000c                _bss = .
+ *(.bss*)
+ .bss           0x1000000c        0x1 ./src/tasks/_7segment.o
+                0x1000000c                counter
+ .bss           0x1000000d        0x4 ./src/tasks/rgb_update.o
+                0x1000000d                blue_state
+                0x1000000e                blue_counter
+ .bss           0x10000011        0x1 ./src/tasks/rotary_controller.o
+                0x10000011                state
+ *fill*         0x10000012        0x2 
+ .bss           0x10000014        0x8 ./src/scheduler/ttc_scheduler_o.o
+ *(COMMON)
+ COMMON         0x1000001c       0xa4 ./src/scheduler/ttc_scheduler_o.o
+                0x1000001c                Error_code_G
+                0x10000020                SCH_tasks_G
+                0x100000c0                . = ALIGN (0x4)
+                0x100000c0                _ebss = .
+                0x100000c0                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x100000c0        0x0
+                0x100000c0                _noinit = .
+ *(.noinit*)
+                0x100000c0                . = ALIGN (0x4)
+                0x100000c0                _end_noinit = .
+                0x100000c0                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+OUTPUT(scheduler_rgb_js.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x3efc
+ .debug_info    0x00000000      0x2b3 ./src/tasks/_7segment.o
+ .debug_info    0x000002b3       0xe3 ./src/tasks/joystick_controller.o
+ .debug_info    0x00000396      0x13c ./src/tasks/rgb_update.o
+ .debug_info    0x000004d2       0xd2 ./src/tasks/rotary_controller.o
+ .debug_info    0x000005a4      0x1b1 ./src/system/cr_startup_lpc17.o
+ .debug_info    0x00000755      0x709 ./src/scheduler/ttc_scheduler_o.o
+ .debug_info    0x00000e5e      0x108 ./src/main/main.o
+ .debug_info    0x00000f66      0x2e3 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x00001249      0x188 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_info    0x000013d1      0x356 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_info    0x00001727      0x208 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_info    0x0000192f      0x169 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_info    0x00001a98      0xe48 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_info    0x000028e0      0x470 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_info    0x00002d50      0xbbb Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_info    0x0000390b      0x5f1 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_abbrev   0x00000000     0x12b2
+ .debug_abbrev  0x00000000      0x10c ./src/tasks/_7segment.o
+ .debug_abbrev  0x0000010c       0x8c ./src/tasks/joystick_controller.o
+ .debug_abbrev  0x00000198       0x8c ./src/tasks/rgb_update.o
+ .debug_abbrev  0x00000224       0x8c ./src/tasks/rotary_controller.o
+ .debug_abbrev  0x000002b0       0xb9 ./src/system/cr_startup_lpc17.o
+ .debug_abbrev  0x00000369      0x23e ./src/scheduler/ttc_scheduler_o.o
+ .debug_abbrev  0x000005a7       0x9e ./src/main/main.o
+ .debug_abbrev  0x00000645       0xe6 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x0000072b       0xe8 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_abbrev  0x00000813      0x172 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_abbrev  0x00000985       0xca Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_abbrev  0x00000a4f       0xf7 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_abbrev  0x00000b46      0x21b Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_abbrev  0x00000d61      0x16e Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_abbrev  0x00000ecf      0x22d Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_abbrev  0x000010fc      0x1b6 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_aranges  0x00000000      0x4b0
+ .debug_aranges
+                0x00000000       0x28 ./src/tasks/_7segment.o
+ .debug_aranges
+                0x00000028       0x28 ./src/tasks/joystick_controller.o
+ .debug_aranges
+                0x00000050       0x28 ./src/tasks/rgb_update.o
+ .debug_aranges
+                0x00000078       0x20 ./src/tasks/rotary_controller.o
+ .debug_aranges
+                0x00000098       0x70 ./src/system/cr_startup_lpc17.o
+ .debug_aranges
+                0x00000108       0x78 ./src/scheduler/ttc_scheduler_o.o
+ .debug_aranges
+                0x00000180       0x28 ./src/main/main.o
+ .debug_aranges
+                0x000001a8       0x28 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_aranges
+                0x000001d0       0x28 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_aranges
+                0x000001f8       0x28 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_aranges
+                0x00000220       0x28 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_aranges
+                0x00000248       0x28 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_aranges
+                0x00000270       0xf8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_aranges
+                0x00000368       0x48 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_aranges
+                0x000003b0       0xa8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_aranges
+                0x00000458       0x58 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_ranges   0x00000000      0x3b0
+ .debug_ranges  0x00000000       0x18 ./src/tasks/_7segment.o
+ .debug_ranges  0x00000018       0x18 ./src/tasks/joystick_controller.o
+ .debug_ranges  0x00000030       0x18 ./src/tasks/rgb_update.o
+ .debug_ranges  0x00000048       0x10 ./src/tasks/rotary_controller.o
+ .debug_ranges  0x00000058       0x60 ./src/system/cr_startup_lpc17.o
+ .debug_ranges  0x000000b8       0x68 ./src/scheduler/ttc_scheduler_o.o
+ .debug_ranges  0x00000120       0x18 ./src/main/main.o
+ .debug_ranges  0x00000138       0x18 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x00000150       0x18 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_ranges  0x00000168       0x18 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_ranges  0x00000180       0x18 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_ranges  0x00000198       0x18 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_ranges  0x000001b0       0xe8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_ranges  0x00000298       0x38 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_ranges  0x000002d0       0x98 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_ranges  0x00000368       0x48 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_macro    0x00000000     0x458f
+ .debug_macro   0x00000000       0xb9 ./src/tasks/_7segment.o
+ .debug_macro   0x000000b9      0x856 ./src/tasks/_7segment.o
+ .debug_macro   0x0000090f       0x1c ./src/tasks/_7segment.o
+ .debug_macro   0x0000092b       0x22 ./src/tasks/_7segment.o
+ .debug_macro   0x0000094d       0x16 ./src/tasks/_7segment.o
+ .debug_macro   0x00000963       0x44 ./src/tasks/_7segment.o
+ .debug_macro   0x000009a7      0x209 ./src/tasks/_7segment.o
+ .debug_macro   0x00000bb0      0x7b7 ./src/tasks/_7segment.o
+ .debug_macro   0x00001367      0x2c7 ./src/tasks/_7segment.o
+ .debug_macro   0x0000162e       0x64 ./src/tasks/_7segment.o
+ .debug_macro   0x00001692      0x140 ./src/tasks/_7segment.o
+ .debug_macro   0x000017d2       0x46 ./src/tasks/_7segment.o
+ .debug_macro   0x00001818      0x2a6 ./src/tasks/_7segment.o
+ .debug_macro   0x00001abe       0x1c ./src/tasks/_7segment.o
+ .debug_macro   0x00001ada       0x6d ./src/tasks/joystick_controller.o
+ .debug_macro   0x00001b47       0x5e ./src/tasks/joystick_controller.o
+ .debug_macro   0x00001ba5       0x28 ./src/tasks/joystick_controller.o
+ .debug_macro   0x00001bcd       0x1c ./src/tasks/joystick_controller.o
+ .debug_macro   0x00001be9       0x6e ./src/tasks/rgb_update.o
+ .debug_macro   0x00001c57       0xb3 ./src/tasks/rotary_controller.o
+ .debug_macro   0x00001d0a       0x58 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x00001d62       0x9c ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00001dfe       0x16 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00001e14       0x2e ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00001e42       0x28 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00001e6a       0xc3 ./src/main/main.o
+ .debug_macro   0x00001f2d       0x1c ./src/main/main.o
+ .debug_macro   0x00001f49       0x22 ./src/main/main.o
+ .debug_macro   0x00001f6b      0x113 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000207e      0x850 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x000028ce       0x10 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x000028de      0x12d Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00002a0b      0x5b2 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00002fbd      0x7d5 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00003792       0x83 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00003815       0x40 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_macro   0x00003855       0x99 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_macro   0x000038ee       0x83 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00003971       0xb3 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_macro   0x00003a24       0x83 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00003aa7       0xda Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00003b81       0x7a Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00003bfb       0x8c Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00003c87      0x2a0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00003f27      0x2fa Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macro   0x00004221       0x7a Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000429b      0x2f4 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_line     0x00000000     0x2b7c
+ .debug_line    0x00000000      0x2f7 ./src/tasks/_7segment.o
+ .debug_line    0x000002f7      0x249 ./src/tasks/joystick_controller.o
+ .debug_line    0x00000540      0x258 ./src/tasks/rgb_update.o
+ .debug_line    0x00000798      0x2c4 ./src/tasks/rotary_controller.o
+ .debug_line    0x00000a5c      0x2d9 ./src/system/cr_startup_lpc17.o
+ .debug_line    0x00000d35      0x40f ./src/scheduler/ttc_scheduler_o.o
+ .debug_line    0x00001144      0x348 ./src/main/main.o
+ .debug_line    0x0000148c      0x1d4 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x00001660      0x1ef Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_line    0x0000184f      0x1f9 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_line    0x00001a48      0x1dc Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_line    0x00001c24      0x205 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_line    0x00001e29      0x441 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_line    0x0000226a      0x20e Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_line    0x00002478      0x4aa Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_line    0x00002922      0x25a Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_str      0x00000000     0xca4e
+ .debug_str     0x00000000     0x8729 ./src/tasks/_7segment.o
+                               0x8891 (size before relaxing)
+ .debug_str     0x00008729      0x120 ./src/tasks/joystick_controller.o
+                               0x3156 (size before relaxing)
+ .debug_str     0x00008849       0x85 ./src/tasks/rgb_update.o
+                               0x312c (size before relaxing)
+ .debug_str     0x000088ce       0x30 ./src/tasks/rotary_controller.o
+                               0x8791 (size before relaxing)
+ .debug_str     0x000088fe      0x141 ./src/system/cr_startup_lpc17.o
+                               0x2ff1 (size before relaxing)
+ .debug_str     0x00008a3f      0x5d0 ./src/scheduler/ttc_scheduler_o.o
+                               0x7605 (size before relaxing)
+ .debug_str     0x0000900f       0x2a ./src/main/main.o
+                               0x720a (size before relaxing)
+ .debug_str     0x00009039     0x1b85 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                               0x7ef5 (size before relaxing)
+ .debug_str     0x0000abbe       0x83 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+                               0x7f6d (size before relaxing)
+ .debug_str     0x0000ac41      0x13d Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+                               0x9039 (size before relaxing)
+ .debug_str     0x0000ad7e       0x2a Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+                               0x7f2a (size before relaxing)
+ .debug_str     0x0000ada8       0x95 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+                               0x7f90 (size before relaxing)
+ .debug_str     0x0000ae3d      0x57b Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                               0x8453 (size before relaxing)
+ .debug_str     0x0000b3b8      0x20b Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+                               0x837a (size before relaxing)
+ .debug_str     0x0000b5c3     0x13e7 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                               0xa308 (size before relaxing)
+ .debug_str     0x0000c9aa       0xa4 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                               0x90e9 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/tasks/_7segment.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/tasks/joystick_controller.o
+ .comment       0x00000000       0x71 ./src/tasks/rgb_update.o
+ .comment       0x00000000       0x71 ./src/tasks/rotary_controller.o
+ .comment       0x00000000       0x71 ./src/system/cr_startup_lpc17.o
+ .comment       0x00000000       0x71 ./src/scheduler/ttc_scheduler_o.o
+ .comment       0x00000000       0x71 ./src/main/main.o
+ .comment       0x00000000       0x71 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x00000000       0x71 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .comment       0x00000000       0x71 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .comment       0x00000000       0x71 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .comment       0x00000000       0x71 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .comment       0x00000000       0x71 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .comment       0x00000000       0x71 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .comment       0x00000000       0x71 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .comment       0x00000000       0x71 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./src/tasks/_7segment.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/tasks/joystick_controller.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/tasks/rgb_update.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/tasks/rotary_controller.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src/system/cr_startup_lpc17.o
+ .ARM.attributes
+                0x000000ff       0x33 ./src/scheduler/ttc_scheduler_o.o
+ .ARM.attributes
+                0x00000132       0x33 ./src/main/main.o
+ .ARM.attributes
+                0x00000165       0x33 Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x00000198       0x33 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .ARM.attributes
+                0x000001cb       0x33 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .ARM.attributes
+                0x000001fe       0x33 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .ARM.attributes
+                0x00000231       0x33 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .ARM.attributes
+                0x00000264       0x33 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .ARM.attributes
+                0x00000297       0x33 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .ARM.attributes
+                0x000002ca       0x33 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .ARM.attributes
+                0x000002fd       0x33 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_frame    0x00000000      0xae8
+ .debug_frame   0x00000000       0x4c ./src/tasks/_7segment.o
+ .debug_frame   0x0000004c       0x4c ./src/tasks/joystick_controller.o
+ .debug_frame   0x00000098       0x48 ./src/tasks/rgb_update.o
+ .debug_frame   0x000000e0       0x2c ./src/tasks/rotary_controller.o
+ .debug_frame   0x0000010c      0x120 ./src/system/cr_startup_lpc17.o
+ .debug_frame   0x0000022c      0x158 ./src/scheduler/ttc_scheduler_o.o
+ .debug_frame   0x00000384       0x48 ./src/main/main.o
+ .debug_frame   0x000003cc       0x3c Z:\LPC\CHFworksp\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x00000408       0x40 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_frame   0x00000448       0x44 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_frame   0x0000048c       0x40 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_frame   0x000004cc       0x48 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_frame   0x00000514      0x2b0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_frame   0x000007c4       0x88 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_frame   0x0000084c      0x1fc Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_frame   0x00000a48       0xa0 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_loc      0x00000000     0x18e4
+ .debug_loc     0x00000000       0x68 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(joystick.o)
+ .debug_loc     0x00000068       0x42 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(led7seg.o)
+ .debug_loc     0x000000aa       0x3a Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_loc     0x000000e4       0xb6 Z:\LPC\CHFworksp\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rotary.o)
+ .debug_loc     0x0000019a      0xc56 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_loc     0x00000df0      0x1c6 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_loc     0x00000fb6      0x786 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_loc     0x0000173c      0x1a8 Z:\LPC\CHFworksp\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)

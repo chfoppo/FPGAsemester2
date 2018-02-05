@@ -1,0 +1,24 @@
+#include "lpc17xx_pinsel.h"
+#include "lpc17xx_gpio.h"
+#include "lpc17xx_ssp.h"
+#include "led7seg.h"
+#include "rotary_controller.h"
+#include "_writeled.h"
+
+/*Initial value*/
+uint8_t red_duty = 0;
+uint8_t green_duty = 0;
+
+void Led_Init(void) {
+	rgb_init();
+}
+
+
+void Led_Update(void) {
+	static uint8_t ch = '0';
+/*check if the counter meets the parameter read from the rotary*/
+	pca9532_setBlink0Duty(duty);
+}
+
+
+

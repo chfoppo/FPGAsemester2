@@ -1,0 +1,13 @@
+#ifndef RGB_UPDATE_HEADER
+#define RGB_UPDATE_HEADER
+
+#include "rgb.h"
+
+extern uint8_t red_parameter;
+extern uint8_t green_parameter;
+extern uint8_t blue_counter;
+
+void Green_Init(void);
+void Green_Update(void);
+
+#endif

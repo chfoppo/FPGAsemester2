@@ -1,0 +1,22 @@
+#include "lpc17xx_pinsel.h"
+#include "lpc17xx_gpio.h"
+#include "lpc17xx_ssp.h"
+#include "led7seg.h"
+#include "rotary_controller.h"
+#include "_red.h"
+
+/*Initial value set the 7segment display in 1.0s period*/
+uint8_t counter_parameter = 10;
+uint8_t counter = 0;
+
+void Red_Init(void) {
+	rgb_init();
+}
+
+
+void Red_Update(void) {
+	static uint8_t ch = '0';
+/*check if the counter meets the parameter read from the rotary*/
+	pca9532_setBlink0Duty(duty);
+}
+

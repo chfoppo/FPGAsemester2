@@ -1,0 +1,38 @@
+#include "lpc_types.h"
+#include "rgb.h"
+#include "_green.h"
+#include "joystick_controller.h"
+
+/*The initial value set the red and green led turn on and off
+ * in 50% duty cycle and blue is off*/
+
+uint8_t red_state = RGB_RED;
+uint8_t red_parameter = 0x05;
+uint8_t green_state = RGB_GREEN;
+uint8_t green_parameter = 0x05;
+uint8_t blue_state = 0x00;
+uint8_t blue_counter = 0x00;
+
+void Green_Init(void) {
+	rgb_init();
+}
+
+void Green_Update(void) {
+	static uint8_t red_counter = 0x00;
+	static uint8_t green_counter = 0x00;
+
+	if (red_counter != red_parameter) {
+		red_counter++;
+	} else if (red_counter == red_parameter) {
+		red_counter++;
+		red_state = 0x00;
+	}
+
+	if (green_counter != green_parameter) {
+		green_counter++;
+	} else if (green_counter == green_parameter) {
+		green_counter++;
+		green_state = 0x00;
+	}
+
+}
